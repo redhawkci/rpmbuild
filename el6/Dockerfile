@@ -6,3 +6,5 @@ RUN yum update -y && \
                    rpmdevtools \
                    yum-utils && \
     yum clean all
+
+RUN rpmdev-setuptree
